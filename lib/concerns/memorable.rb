@@ -10,6 +10,6 @@ module Memorable
   end
 
   module InstanceMethods
-
+    .self.class.all << self
   end
 end
