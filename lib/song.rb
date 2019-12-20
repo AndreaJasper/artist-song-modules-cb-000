@@ -8,7 +8,7 @@ class Song
 
   @@songs = []
 
-  def initialize(song)
+  def initialize
     @@songs << self
   end
 
